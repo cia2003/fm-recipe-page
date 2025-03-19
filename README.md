@@ -19,10 +19,10 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Screenshot
 
 - On desktop Screen:
-<img src="/screenshots/desktop-device.png" width="500px" height="300px">
+<img src="/screenshots/desktop-device.png" width="300px" height="84px">
 
 - On Mobile Screen:
-<img src="/screenshots/mobile-device.png" width="300px" height="500px">
+<img src="/screenshots/mobile-device.png" width="300px" height="707px">
 
 
 ### Links
