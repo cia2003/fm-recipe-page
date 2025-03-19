@@ -65,7 +65,7 @@ If there is a feedback about this project's code, please info me.
 
 ### Useful Resources
 
-- [BEM Methodology](https://en.bem.info/methodology/quick-start/#block): This helps me to understand how to 
+- [BEM Methodology](https://en.bem.info/methodology/quick-start/#block): This helps me to understand how to name the code's component in a easy way.
 
 
 ## Author
