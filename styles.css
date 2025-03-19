@@ -1,0 +1,182 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Stone-100: hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Stone-900: hsl(24, 5%, 18%);
+    --Brown-800: hsl(14, 45%, 36%);
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+}
+@font-face {
+    font-family: 'Outfit';
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf) format(truetype);
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Young Serif';
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    font-weight: 400 700;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Outfit', monospace;
+    background-color: var(--Stone-100);
+    color: var(--Stone-600);
+    box-sizing: border-box;
+    margin: 0;
+    line-height: 1.5;
+}
+
+p {
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin: 8% 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--White);
+    width: 100%;
+    height: 100%;
+    max-width: 650px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.card__img {
+    border-radius: 10px;
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card__title {
+    font-family: 'Young Serif', sans-serif;
+    color: var(--Stone-900);
+    margin: 0;
+}
+
+.card__section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card__section ul, .card__section ol {
+    margin: 0;
+    padding: 0 25px;
+}
+
+.card__section li {
+    padding: 0 0 20px 15px;
+    line-height: 1.5;
+}
+
+.card__section li::marker {
+    color: var(--Brown-800);
+    font-weight: 600;
+}
+
+.card__section li:last-child {
+    padding-bottom: 0;
+}
+
+.card__section h2 {
+    font-family: 'Young Serif', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--Brown-800);
+}
+
+.card__section--preparation {
+    background-color: var(--Rose-50);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 15px 0;
+}
+
+.card__section--preparation h2 {
+    color: var(--Rose-800);
+    font-family: 'Outfit', monospace;
+}
+
+.card__section--preparation li::marker {
+    color: var(--Rose-800);
+}
+
+.card__divider {
+    border: 1px solid var(--Stone-150);
+    width: 100%;
+    margin: 10px 0;
+}
+
+.card__table {
+    border-collapse: collapse;
+}
+  
+.card__table tr {
+    border-bottom: 1px solid var(--Stone-150);
+    font-weight: 600;
+    color: var(--Brown-800);
+}
+
+.card__table tr:last-child {
+    border-bottom: none;
+}
+
+.card__table th, .card__table td {
+    padding: 8px 0;
+}
+
+.card__table th {
+    font-weight: 400;
+    color: var(--Stone-600);
+    text-indent: 30px;
+    text-align: left;
+    width: 50%;
+}
+
+.card__table td {
+    width: auto;
+}
+
+.card__attribution { 
+    margin: 10px 0;
+    font-size: 11px; text-align: center; 
+}
+
+.card__attribution a { 
+    color: var(--Stone-900); 
+}
+
+@media screen and (max-width: 426px){
+    .content {
+        margin: 0;
+    }
+
+    .card {
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .card__img {
+        border-radius: 0;
+    }
+
+    .card__content {
+        padding: 10px 30px;
+    }
+}
