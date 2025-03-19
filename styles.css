@@ -55,6 +55,7 @@ p {
 
 .card__img {
     border-radius: 10px;
+    width: 100%;
 }
 
 .card__content {
