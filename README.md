@@ -28,7 +28,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - [Solution URL](https://github.com/cia2003)
-- [Live Site URL](https://your-live-site-url.com)
+- [Live Site URL](https://cia2003.github.io/fm-recipe-page/)
 
 ## My process
 
